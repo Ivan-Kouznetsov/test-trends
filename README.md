@@ -1,6 +1,6 @@
 # test-trends
 
-`test-trends` is a JavaScript proejct for API reliability analysis:
+`test-trends` is a JavaScript project for API reliability analysis:
 - chaos API responses with controlled failure modes
 - capture real test runs as JSON records
 - aggregate those records with a CLI
