@@ -1,0 +1,15 @@
+{
+  "name": "test-trends-data-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "bin": {
+    "generate-test-data": "generate.js"
+  },
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "analysis-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI for summarizing chaos server test results",
+  "main": "cli.js",
+  "bin": {
+    "analyze-results": "./cli.js"
+  },
+  "scripts": {
+    "analyze": "node cli.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "test-trends",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chaos server + test capture + analysis + dashboard demo workspace",
+  "scripts": {
+    "setup": "bash scripts/install-all.sh",
+    "demo:live": "bash scripts/demo-live.sh",
+    "demo:synthetic": "bash scripts/demo-dashboard.sh",
+    "analyze": "node analysis-cli/cli.js --path ./data --format json --out ./dashboard/src/data/summary.json",
+    "dashboard:dev": "npm --prefix dashboard run dev",
+    "test:demo": "npm --prefix demo-tests test"
+  }
+}
